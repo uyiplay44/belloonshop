@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./contact.css">
+    <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600&display=swap" rel="stylesheet">
+    <title>Glamorous-Fave</title>
+
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init("b2AaiNAGd3XF9eRFQ");
+        })();
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <a href="../index.html"><img src='../Data/Logo.png' alt="logo"></a>
+        </div>
+        <ul class="nav-menu">
+            <li class="nav-item">
+                <a href="../index.html" class="nav-link active">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="../Showcase/showcase.html" class="nav-link">Showcase</a>
+            </li>
+            <li class="nav-item">
+                <a href="./contact.html" class="nav-link">Contact</a>
+            </li>
+            <li class="nav-item">
+                <a href="../Blog/blog.html" class="nav-link">Blog</a>
+            </li>
+        </ul>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </div>
+
+    <div class="contact_section">
+        <div class="contact_content">
+            <h1>Say Hello</h1>
+            <p class="contact_text">Need quote? A consultation? Advice? Please get in touch and we'll get back to you within 24hours.</p>
+        </div>
+        <div class="contact_click">
+            <a href="./contact.html" class="blue_click">Contact</a>
+        </div>
+    </div>
+
+    <section class="contact_container">   
+        <form>
+            <div class="control_us">
+              <h2>SEND US YOUR REQUEST</h2>
+              <p class="control_text">Thank you for your interest in Glamorous Space by Fave</p>
+              <p class="control_text">We will be with your within 24 hours- weekend included.</p>
+            </div>
+          <div class="form_group">
+            <label>Full Name</label>
+            <input name="name" placeholder="Full Name">
+            <div class="error_hint hidden">Your name is required.</div>
+          </div>
+          <div class="form_group">
+            <label>Email</label>
+            <input name="email" placeholder="Your Email">
+            <div class="error_hint hidden">Your email is required.</div>
+          </div>
+  
+          <div class="form_group">
+            <label>Phone</label>
+            <input name="phone" placeholder="Your Number">
+            <div class="error_hint hidden">Your correct number.</div>
+          </div>
+          <div class="form_group">
+            <label>Message</label>
+            <textarea name="message" placeholder="insert message" class="text_area"></textarea>
+            <div class="error_hint hidden">Drop a message here.</div>
+          </div>
+          <hr>
+          <button type="submit">SEND</button>
+        </form>
+        <div class="thank_you hidden">
+          Thank you for dropping a message..
+        </div>
+    </section>
+
+    <div class="detail_container">
+        <div class="details_blog">
+            <h1>GENERAL INQUIRIES</h1>
+            <p class="detail_text">Telephone: +234 701 41282 70</p>
+            <p class="detail_text">Email: sale@glamorousspacebyfave.com</p>
+        </div>
+        <div class="details_blog">
+            <h1>DESIGNER SERVICE</h1>
+            <p class="detail_text">Telephone: +234 701 41282 70</p>
+            <p class="detail_text">Email: sale@glamorousspacebyfave.com</p>
+        </div>
+        <div class="details_blog">
+            <h1>PRESS & MEDIA</h1>
+            <p class="detail_text">Telephone: +234 701 41282 70</p>
+            <p class="detail_text">Email: sale@glamorousspacebyfave.com</p>
+        </div>
+    </div>
+
+
+    <div class="contact_base">
+        <div class="contact_info">
+            <div class="meet_title">
+                <p>BY APPOINTMENT</p>
+                <h4>we'd love to meet you!</h4>
+                <p>Contact</p>
+                <p>Office Address: 2 Adebisi Oyenola ,
+                   Idado Estate Igboefon Lekki, 
+                   Lagos Nigeria</p>
+                <a href="../Data/Map.png">Get Direction</a>
+            </div>
+            <div class="contact_map">
+                <img src="../Data/Map.png" alt="photo">
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="contact.js"></script>
+</body>
+</html>
